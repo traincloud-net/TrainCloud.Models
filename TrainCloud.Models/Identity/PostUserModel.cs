@@ -17,6 +17,7 @@ public class PostUserModel : IValidatableObject
     [EmailAddress]
     public string EMail { get; set; }
 
+    [Required]
     public string Role { get; set; }
 
     public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
