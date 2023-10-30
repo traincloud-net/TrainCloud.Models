@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace TrainCloud.Models.Scanner;
 public class ScanResultModel
 {
-    public string? UIC { get; set; }
+    public string? FullUIC { get; set; }
 
     public Guid ScanId { get; set; }
 
