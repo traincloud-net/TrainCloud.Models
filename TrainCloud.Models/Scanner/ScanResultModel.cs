@@ -8,4 +8,8 @@ namespace TrainCloud.Models.Scanner;
 public class ScanResultModel
 {
     public string? UIC { get; set; }
+
+    public Guid ScanId { get; set; }
+
+    public bool Success { get; set; }
 }
