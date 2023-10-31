@@ -93,5 +93,7 @@ public class CarModel
 
     public DateTimeOffset LastChange { get; set; }
 
+    public short? MaxSpeed { get; set; }
+
     public string? CarComment { get; set; }
 }
