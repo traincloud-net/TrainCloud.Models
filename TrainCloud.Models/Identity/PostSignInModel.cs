@@ -9,8 +9,10 @@ namespace TrainCloud.Models.Identity;
 public  class PostSignInModel
 {
     [Required]
-    public string UserName { get; set; }
+    public string UserName { get; set; } = string.Empty;
 
     [Required]
-    public string Password { get; set; }
+    [MinLength(6)]
+    [MaxLength(64)]
+    public string Password { get; set; } = string.Empty;
 }

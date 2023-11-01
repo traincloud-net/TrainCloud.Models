@@ -11,14 +11,14 @@ public class PostUserModel : IValidatableObject
     public Guid? TenantId { get; set; }
 
     [Required]
-    public string UserName { get; set; }
+    public string UserName { get; set; } = string.Empty;
 
     [Required]
     [EmailAddress]
-    public string EMail { get; set; }
+    public string EMail { get; set; } = string.Empty;
 
     [Required]
-    public string Role { get; set; }
+    public string Role { get; set; } = string.Empty;
 
     public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
     {

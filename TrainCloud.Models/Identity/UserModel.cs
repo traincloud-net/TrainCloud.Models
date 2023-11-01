@@ -12,10 +12,10 @@ public class UserModel
     
     public Guid? TenantId { get; set; }
 
-    public string UserName { get; set; }
+    public string UserName { get; set; } = string.Empty;
 
-    public string EMail { get; set; }
-    
+    public string EMail { get; set; } = string.Empty;
+
     public bool EMailConfirmed{ get; set; }
 
     public List<string>? Roles { get; set; }

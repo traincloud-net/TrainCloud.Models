@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace TrainCloud.Models.Lists.CarLists;
-public class PatchCarListModel
+
+public class CarListExportModel
 {
 }

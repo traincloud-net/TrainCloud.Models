@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -7,7 +8,18 @@ using System.Threading.Tasks;
 namespace TrainCloud.Models.Identity;
 public class PostChangePasswordModel
 {
-    public string OldPassword { get; set; }
-    public string NewPassword { get; set; }
-    public string ConfirmNewPassword { get; set; }
+    [Required]
+    [MinLength(6)]
+    [MaxLength(64)]
+    public string OldPassword { get; set; } = string.Empty;
+
+    [Required]
+    [MinLength(6)]
+    [MaxLength(64)]
+    public string NewPassword { get; set; } = string.Empty;
+
+    [Required]
+    [MinLength(6)]
+    [MaxLength(64)]
+    public string ConfirmNewPassword { get; set; } = string.Empty;
 }

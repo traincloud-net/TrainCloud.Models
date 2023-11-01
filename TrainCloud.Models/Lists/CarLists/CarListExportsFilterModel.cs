@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrainCloud.Models.Identity;
-public class TokenModel
+namespace TrainCloud.Models.Lists.CarLists;
+
+public class CarListExportsFilterModel : AbstractFilterModel
 {
-    public string Token { get; set; } = string.Empty;
+
 }
