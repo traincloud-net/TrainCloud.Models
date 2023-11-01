@@ -10,6 +10,8 @@ public class CarListItemModel
 {
     public Guid Id { get; set; }
 
+    public byte Order { get; set; }
+
     public string FullUIC { get; set; } = string.Empty;
 
     public string? FreightCarCategory { get; set; }
