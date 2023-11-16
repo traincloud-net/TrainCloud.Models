@@ -10,4 +10,16 @@
 				<RepositoryUrl>https://github.com/traincloud-net/TrainCloud.Models</RepositoryUrl>
 		</PropertyGroup>
 
+		<ItemGroup>
+		  <Compile Remove="Lists\**" />
+		  <Compile Remove="Registry\**" />
+		  <Compile Remove="Scanner\**" />
+		  <EmbeddedResource Remove="Lists\**" />
+		  <EmbeddedResource Remove="Registry\**" />
+		  <EmbeddedResource Remove="Scanner\**" />
+		  <None Remove="Lists\**" />
+		  <None Remove="Registry\**" />
+		  <None Remove="Scanner\**" />
+		</ItemGroup>
+
 </Project>

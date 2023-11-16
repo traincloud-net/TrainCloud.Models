@@ -5,10 +5,10 @@ VisualStudioVersion = 17.8.34112.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainCloud.Models", "TrainCloud.Models\TrainCloud.Models.csproj", "{DFEBED19-0B1B-408A-92CB-86FB1A75C3D7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainCloud.Tests.Models", "TrainCloud.Tests.Models\TrainCloud.Tests.Models.csproj", "{2A6837D7-619B-482F-93D9-52473030442B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{29969897-1535-4BE6-A292-BB16BF5623A8}"
 	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -22,10 +22,6 @@ Global
 		{DFEBED19-0B1B-408A-92CB-86FB1A75C3D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFEBED19-0B1B-408A-92CB-86FB1A75C3D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFEBED19-0B1B-408A-92CB-86FB1A75C3D7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2A6837D7-619B-482F-93D9-52473030442B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2A6837D7-619B-482F-93D9-52473030442B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2A6837D7-619B-482F-93D9-52473030442B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2A6837D7-619B-482F-93D9-52473030442B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
