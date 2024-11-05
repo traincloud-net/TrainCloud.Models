@@ -30,22 +30,6 @@ public abstract class AbstractFilterModel
     /// 
     /// </summary>
     /// <value></value>
-    [Required]
-    [DefaultValue("Id")]
-    public virtual string OrderBy { get; set; } = "Id";
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <value></value>
-    [Required]
-    [DefaultValue(SortOrder.Ascending)]
-    public virtual SortOrder Order { get; set; } = SortOrder.Ascending;
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <value></value>
     public string? SearchString { get; set; } 
 }
 

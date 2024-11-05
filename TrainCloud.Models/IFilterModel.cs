@@ -21,18 +21,6 @@ public interface IFilterModel
     /// 
     /// </summary>
     /// <value></value>
-    public string OrderBy { get; set; }
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <value></value>
-    public SortOrder Order { get; set; }
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <value></value>
     public string? SearchString { get; set; }
 }
 
