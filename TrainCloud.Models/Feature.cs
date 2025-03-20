@@ -13,5 +13,9 @@ public enum Feature : short
     DisturbanceBook = 128, // TenantDispatcher & TenantUser & TenantTfTraincee + TenantOwner & ECM 1-4
     Reports = 256, // TenantOwner
     Pzb = 512, // TenantOwner & TenantOperationalEvaluator
-    Ecm = 1024 // TenantOwner & ECM 1-4
+    Ecm = 1024, // TenantOwner & ECM 1-4
+    IncidentIncident = 2048,// TenantOwner & TenantOperationalEvaluator // TenantUser  (new&view)& TenantTfTraincee (new&view)  // TenantDispatcher (new&view&Edit)
+    IncidentTowingDrive = 4096, // TenantOwner & TenantOperationalEvaluator // TenantUser  (new&view)& TenantTfTraincee (new&view)
+    IncidentMonitoringIvb = 8192,// TenantOwner & TenantOperationalEvaluator // TenantUser  (new&view)& TenantTfTraincee (new&view)
+
 }
