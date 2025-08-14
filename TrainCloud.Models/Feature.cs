@@ -17,5 +17,4 @@ public enum Feature : short
     IncidentIncident = 2048,// TenantOwner & TenantOperationalEvaluator // TenantUser  (new&view)& TenantTfTraincee (new&view)  // TenantDispatcher (new&view&Edit)
     IncidentTowingDrive = 4096, // TenantOwner & TenantOperationalEvaluator // TenantUser  (new&view)& TenantTfTraincee (new&view)
     IncidentMonitoringIvb = 8192,// TenantOwner & TenantOperationalEvaluator // TenantUser  (new&view)& TenantTfTraincee (new&view)
-
 }
